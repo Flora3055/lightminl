@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tees - T-shirt eCommerce Website Template</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="t-shirt ecommerce">
+  <meta name="description" content="T-shirt eCommerce Website Template">
+
+  <link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <!--Bootstrap ================================================== -->
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0-alpha3/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/Swiper/9.4.1/swiper-bundle.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="hompage">
+
+  <header id="header" class=" nav-header content-light fixed-top border-bottom">
+    <div class="header-wrap container py-3">
+      <div class="row align-items-center pb-3 pb-lg-0">
+        <div class="primary-nav col-md-5 col-sm-2">
+          <nav class="navbar">
+            <div class="main-menu">
+              <ul class="menu-list  list-unstyled d-flex m-0 ">
+                <li class="menu-itemhome1">
+                  <a href="index.html" class="text-uppercase item-anchor">Home</a>
+                </li>
+                <li class="menu-itemhome1">
+                  <a href="about-us.html" class="text-uppercase item-anchor">About</a>
+                </li>
+                <li class="menu-itemhome1 dropdown">
+                  <a class="text-uppercase item-anchor dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"> Shop </a>
+                  <ul class="dropdown-menu">
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item" href="shop.html">Shop
+                        sidebar </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="single-product.html">Single product </a>
+                    </li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item" href="cart.html">cart
+                      </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="wishlist.html">wishlist </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="checkout.html">checkout </a></li>
+                  </ul>
+                </li>
+                <li class="menu-itemhome1 dropdown">
+                  <a class="text-uppercase item-anchor dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"> blog </a>
+                  <ul class="dropdown-menu">
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item" href="blog.html">blog
+                        classic </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="blog-with-sidebar.html">Blog sidebar </a>
+                    </li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="single-post.html">Single post </a></li>
+                  </ul>
+                </li>
+                <li class="menu-itemhome1 dropdown">
+                  <a class="text-uppercase item-anchor dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"> Pages </a>
+                  <ul class="dropdown-menu">
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="about-us.html">About-Us </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="contact.html">contact </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item" href="faqs.html">faqs
+                      </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="my-account.html">account </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item"
+                        href="thank-you.html">Thankyou </a></li>
+                    <li class="sub-page pe-0"><a class="text-black text-uppercase dropdown-item" href="error.html">Error
+                      </a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-2 col-sm-4 brand-block ">
+          <div class="main-logo text-lg-center">
+            <a href="index.html">
+              <img src="images/main-logo.png" alt="logo" class="brand-image">
+            </a>
+          </div>
+        </div>
+        <div class="right-block col-md-5 col-sm-4">
+          <nav class="navbar justify-content-end">
+            <div class="user-items">
+              <ul class="list-unstyled content-light d-flex align-items-center m-0">
+                <!-- <li>
+                  <i class="icon icon-user"></i>
+                  <a href="my-account.html" class="text-uppercase item-anchor">Login</a>
+                </li> --> <!-- add if you want -->
+                <li class="search-item">
+                  <div class="search-bar">
+                    <form action="#" class="search-form d-flex no-margin">
+                      <i class="icon icon-search"></i>
+                      <input type="text" placeholder="SEARCH.." name="search"
+                        class="title-placeholder no-margin text-light ">
+                    </form>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="like">
+                    <i class="icon icon-like"></i>
+                    <span>(0)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="cart for-buy">
+                    <i class="icon icon-shopping-cart"></i>
+                    <span>(0)</span>
+                  </a>
+                </li>
+                <li class="fw-bold">
+                  <a href="#" class="text-uppercase text-decoration-underline" target="_blank">Button</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="banner">
+    <div class="d-flex jarallax position-relative"
+      style="background-image: url(images/hero-image.jpg); background-size: cover; background-repeat: no-repeat; height: 55vh; background-position: center; height: 55vh;">
+      <div class="banner-content text-center m-auto">
+        <div class="content-light text-center">
+          <h1 class="page-title">Blog-Sidebar</h1>
+          <div class="breadcrumbs">
+            <span class="item">
+              <a href="index.html">Home /</a>
+            </span>
+            <span class="item">Blog-Sidebar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="post-grid padding-large">
+    <div class="container">
+      <div class="row flex-row-reverse">
+        <main class="col-md-9">
+          <div class="grid-element">
+            <div class="row d-flex flex-wrap">
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item1.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Best Comfortable Clothes Ideas</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item2.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Casual Denim Clothing for women</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item3.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Best Poses for fashion photo</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item4.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Fashion is like nature’s beauty</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item5.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Feel cool while walking in street</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item6.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">the main purpose of aesthetic</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item7.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Great fashion trend in 2022</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item8.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Top 10 famous books for fashion</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+              <article class="col-md-4 post-item element-item">
+                <div class="image-holder">
+                  <a href="single-post.html">
+                    <img src="images/post-item9.jpg" alt="post" class="post-image">
+                  </a>
+                </div>
+                <div class="post-content">
+                  <div class="post-header">
+                    <h3 class="post-title">
+                      <a href="single-post.html">Classic clothing collection ideas</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde ullam corporis odit enim ipsa
+                      deserunt, dolores qui quo aliquid vitae. <span><a href="single-post.html"
+                          class="text-black-50 text-decoration-underline">Learn More</a></span></p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <nav class="navigation paging-navigation text-center padding-medium" role="navigation">
+              <div class="pagination loop-pagination d-flex justify-content-center align-items-center">
+                <a href="#">
+                  <i class="icon icon-angle-left"></i>
+                </a>
+                <span aria-current="page" class="page-numbers mx-2 current">1</span>
+                <a class="page-numbers mx-2" href="#">2</a>
+                <a class="page-numbers mx-2" href="#">3</a>
+                <a href="#">
+                  <i class="icon icon-angle-right"></i>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </main>
+        <aside class="col-md-3">
+          <div class="sidebar">
+            <div class="widget-menu border-bottom">
+              <div class="search-bar">
+                <form role="search" method="get" class="search-box">
+                  <input class="search-field text search-input" placeholder="Search Here..." type="search">
+                  <a href="#" class="search-button search-toggle" data-selector="#header-wrap">
+                    <i class="icon icon-search"></i>
+                  </a>
+                </form>
+              </div>
+            </div>
+
+            <div class="sidebar-filter">
+              <div class="widget sidebar--product-categories">
+                <h5 class="widget-title mt-4">Categories</h5>
+                <ul class="product-categories sidebar-list list-unstyled">
+                  <li class="cat-item">
+                    <a href="/collections/categories">All</a>
+                  </li>
+                  <li class="cat-item">
+                    <a href="">Popular</a>
+                  </li>
+                  <li class="cat-item">
+                    <a href="">Accessories</a>
+                  </li>
+                  <li class="cat-item">
+                    <a href="">New arrivals</a>
+                  </li>
+                  <li class="cat-item">
+                    <a href="">Trending</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="widget sidebar-product-tags">
+                <h5 class="widget-title mt-4">Tags</h5>
+                <ul class="product-tags sidebar-list list-unstyled">
+                  <li class="tags-item">
+                    <a href="">Classic</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Tees</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Leather coat</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Winter</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Summer</a>
+                  </li>
+                  <li class="tags-item no-border-bottom">
+                    <a href="">Modern</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="widget sidebar--social-links">
+                <h5 class="widget-title mt-4">Social Links</h5>
+                <ul class="sidebar-list list-unstyled">
+                  <li class="tags-item">
+                    <a href="">Facebook</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Instagram</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Twitter</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Pinterest</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="">Youtube</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <section id="videos">
+    <div class="video my-5">
+      <div class="video-content position-relative open-up">
+        <div class="video-bg ">
+          <img src="images/video-item.jpg" alt="video" class="video-image img-fluid">
+        </div>
+        <div class="video-player position-absolute">
+          <a class="youtube cboxElement" href="#">
+            <iconify-icon icon="ion:play-sharp" class="video-icon p-4"></iconify-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="position-relative padding-large">
+    <div class="container mt-5">
+      <div class="row pt-5">
+        <div class="review-content">
+          <i class="icon-arrow icon-arrow-left"></i>
+          <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center d-flex justify-content-center">
+                <div class="review-item col-md-8">
+                  <i class="icon icon-review"></i>
+                  <blockquote>“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi
+                    mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi sagittis
+                    loreus oncu enim cursus.”</blockquote>
+                  <div class="rating-star">
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star-line"></i>
+                  </div>
+                  <div class="author-detail">
+                    <div class="name text-primary">Emma Chamberlin</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide text-center d-flex justify-content-center">
+                <div class="review-item col-md-8">
+                  <i class="icon icon-review"></i>
+                  <blockquote>“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi
+                    mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi sagittis
+                    loreus oncu enim cursus.”</blockquote>
+                  <div class="rating-star">
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star"></i>
+                    <i class="icon icon-star-line"></i>
+                  </div>
+                  <div class="author-detail">
+                    <div class="name text-primary">Joey Kimberland</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <i class="icon-arrow icon-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <section id="our-store" class="padding-large">
+    <div class="container">
+      <div class="row d-flex flex-wrap align-items-center">
+        <div class="col-md-6">
+          <div class="image-holder">
+            <img src="images/single-image.jpg" alt="our store">
+          </div>
+        </div>
+        <div class="col-md-6 ps-md-5">
+          <div class="locations-wrap">
+            <div class="section-header">
+              <h2 class="section-title">Our stores</h2>
+              <p>You can also directly buy products from our stores.</p>
+            </div>
+            <div class="location-content">
+              <div class="col-md-6">
+                <h3 class="element-title">USA</h3>
+                <ul class="list-unstyled">
+                  <li>730 Glenstone Ave 65802, Springfield, US</li>
+                  <li>+123 222 333 44</li>
+                  <li>+123 666 777 88</li>
+                  <li>
+                    <a href="#">swanky@yourinfo.com</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="element-title">France</h3>
+                <ul class="list-unstyled">
+                  <li>13 Rue Montmartre 75001, Paris, France</li>
+                  <li>+123 222 333 44</li>
+                  <li>+123 666 777 88</li>
+                  <li>
+                    <a href="#">swanky@yourinfo.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="brand-collection" class="padding-small border-top border-bottom overflow-hidden my-5">
+    <div class="container">
+      <div class="row d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col">
+          <i class="icon icon-brand-item1"></i>
+        </div>
+        <div class="col">
+          <i class="icon icon-brand-item2"></i>
+        </div>
+        <div class="col">
+          <i class="icon icon-brand-item3"></i>
+        </div>
+
+        <div class="col">
+          <i class="icon icon-brand-item5"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="instagram" class="padding-large overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="section-header text-center">
+          <h2 class="section-title">Shop our insta</h2>
+        </div>
+        <div class="row d-flex flex-wrap">
+          <figure class=" col instagram-item magnific position-relative">
+            <a href="#" class="">
+              <img src="images/insta-item1.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay d-flex justify-content-center">
+                <i class="icon icon-instagram1"></i>
+              </div>
+            </a>
+          </figure>
+          <figure class=" col instagram-item magnific position-relative">
+            <a href="#" class="">
+              <img src="images/insta-item2.JPG" alt="instagram" class="insta-image">
+              <div class="icon-overlay d-flex justify-content-center">
+                <i class="icon icon-instagram1"></i>
+              </div>
+            </a>
+          </figure>
+          <figure class=" col instagram-item magnific position-relative">
+            <a href="#" class="">
+              <img src="images/insta-item3.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay d-flex justify-content-center">
+                <i class="icon icon-instagram1"></i>
+              </div>
+            </a>
+          </figure>
+          <figure class=" col instagram-item magnific position-relative">
+            <a href="#" class="">
+              <img src="images/insta-item4.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay d-flex justify-content-center">
+                <i class="icon icon-instagram1"></i>
+              </div>
+            </a>
+          </figure>
+          <figure class=" col instagram-item magnific position-relative">
+            <a href="#" class="">
+              <img src="images/insta-item5.jpg" alt="instagram" class="insta-image">
+              <div class="icon-overlay d-flex justify-content-center">
+                <i class="icon icon-instagram1"></i>
+              </div>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="overflow-hidden">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="footer-top-area">
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer-menu menu-001">
+                <img src="images/dark-logo.png" alt="logo">
+                <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio
+                  erat nullam fringilla.</p>
+                <div
+                  class="newsletter-button d-flex flex-wrap align-items-center justify-content-between border-bottom widget-menu">
+                  <input type="text" name="Subscribe" placeholder="Enter your email address...">
+                  <a href="#">
+                    <i class="icon icon-send"></i>
+                  </a>
+                </div>
+                <div class="social-links">
+                  <ul class="d-flex list-unstyled">
+                    <li>
+                      <a href="#">
+                        <i class="icon icon-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon icon-instagram1"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon icon-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon icon-behance"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="footer-menu text-uppercase menu-002">
+                <h5 class="widget-title">Quick Links</h5>
+                <ul class="menu-list list-unstyled text-uppercase">
+                  <li class="menu-item">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Shop</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Blogs</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer-menu text-uppercase menu-003">
+                <h5 class="widget-title">Help & Info</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item">
+                    <a href="#">Track Your Order</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Returns Policies</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Shipping + Delivery</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Faqs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="footer-menu text-uppercase contact-item menu-004">
+                <h5 class="widget-title">Contact Us</h5>
+                <p>Do you have any queries or suggestions? <a href="mailto:">yourinfo@gmail.com</a>
+                </p>
+                <p>If you need support? Just give us a call. <a href="">+55 111 222 333 44</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </footer>
+  <div id="footer-bottom">
+    <div class="container">
+      <div class="row d-flex flex-wrap justify-content-between mb-3">
+        <div class="col-md-4 col-sm-6">
+          <div class="Shipping d-flex">
+            <p>We ship with:</p>
+            <div class="card-wrap">
+              <img src="images/dhl.png" alt="visa">
+              <img src="images/shippingcard.png" alt="mastercard">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="payment-method d-flex justify-content-md-center">
+            <p>Payment options:</p>
+            <div class="card-wrap">
+              <img src="images/visa.jpg" alt="visa">
+              <img src="images/mastercard.jpg" alt="mastercard">
+              <img src="images/paypal.jpg" alt="paypal">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="copyright text-md-end">
+            <p><a target="_blank" href="http://www.mobanwang.com/" title="网页模板"><u>网页模板</u></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- script ================================================== -->
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- Bootstarp script ================================================== -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0-alpha3/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+
+</body>
+
+</html>
